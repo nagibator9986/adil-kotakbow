@@ -1,0 +1,153 @@
+body {
+    text-align: center;
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    animation-name: adil-text;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    animation-name: adil;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+.textt {
+    text-decoration: none;
+    font-size: 25px;
+
+}
+.main-block {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-row-gap:50px
+    
+}
+.block-1 {
+    height: 300px;
+    background-color: red;
+    border-radius: 10px;
+    animation-name: adil;
+    animation-name: rotare;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.block-2 {
+    height: 300px;
+    background-color: darkcyan;
+    border-radius: 10px;
+    animation-name: adil;
+    animation-name: rotare;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.block-3 {
+    height: 300px;
+    background-color: purple;
+    border-radius: 10px;
+    animation-name: adil;
+    animation-name: rotare;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.block-4 {
+    height: 300px;
+    background-color: gold;
+    border-radius: 10px;
+    animation-name: adil;
+    animation-name: rotare;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.block-5 {
+    height: 300px;
+    background-color: green;
+    border-radius: 10px;
+    animation-name: adil;
+    animation-name: rotare;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.block-6 {
+    height: 300px;
+    background-color: brown;
+    border-radius: 10px;
+    animation-name: adil;
+    animation-name: rotare;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes adil {
+    0% {
+        background-color: antiquewhite;
+    }
+    15% {
+        background-color: aqua;
+    }
+    30% {
+        background-color: blueviolet;
+    }
+    50% {
+        background-color: burlywood;
+    }
+    70% {
+        background-color: cadetblue;
+    }
+    100% {
+        background-color: crimson;
+    }
+    
+}
+@keyframes adil-text {
+    0% {
+        background-color: antiquewhite;
+        font-size: 25px;
+    }
+    15% {
+        background-color: aqua;
+        font-size: 50px;
+    }
+    30% {
+        background-color: blueviolet;
+        font-size: 70px;
+    }
+    50% {
+        background-color: burlywood;
+        font-size: 90px;
+    }
+    70% {
+        background-color: cadetblue;
+        font-size: 120px;
+    }
+    100% {
+        background-color: crimson;
+        font-size: 155px;
+    }
+    
+}
+@keyframes rotare {
+   from {
+    transform: rotate(0deg);
+   }
+   to {
+    transform: rotate(360deg);
+   }
+    
+}
